@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>WEI Efrei</title>
+    <meta name="description" content="WEI Efrei - L'intégration à l'Efrei !" />
+    <meta name="keywords" content="WEI, intégration, EFREI" />
+    <meta name="author" content="Thibaut G" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1024px)" href="style/mobile.css" type="text/css" />
+    <link rel="icon" href="images/logos/favicon.svg">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', (event) => {
+        var date = new Date();
+        var mois = date.getMonth();
+        var message = document.getElementById('message');
+    
+        if(mois >= 0 && mois <= 5){
+          message.textContent = "Le WEI sera de retour bientôt !";
+        } else {
+          message.textContent = "Le WEI sera de retour l'année prochaine !";
+        }
+      });
+    </script>
+  </head>
+
+  <body>
+    <!-- ------------------- HEADER ------------------- -->
+    <header>
+      <div data-aos="fade-down">
+        <nav class="header-nav container flex-container">
+          <h1 class="logo">
+            <a class="logo-link" href="#"
+              ><img id="logo" src="images/logos/horizontal_blanc.svg"
+            /></a>
+          </h1>
+          <ul class="header-menu flex-container">
+            <li><a class="header-menu-link" id="active" href="#">Accueil</a></li>
+            <li><a class="header-menu-link" href="weekend.html">Le week-end</a></li>
+            <li><a class="header-menu-link" style="cursor: not-allowed;">Parrainages</a></li>
+          </ul>
+          <div class="button-header ghost-button" style="cursor: not-allowed;">Mon compte</div>
+        </nav>
+      </div>
+    </header>
+    <!-- ------------------- HEADER ------------------- -->
+
+    <!-- -------------------- BODY -------------------- -->
+    <div data-aos="fade-down">
+      <div class="slider">
+
+        <img src="images/index/slider.jpg" id="slider-img" alt="WEISABI 2022" />
+      </div>
+
+    
+<a href="#down">
+<div class="arrows_index">
+
+<div class="arrows" style="width: 2em; height: 2em; background-color: transparent; z-index: 80; 
+            bottom: 25px; border-width: 0 0.25em 0.25em 0; position: absolute; border-style: solid; border-color: #c73a47; animation: scrolldown 1.2s ease-in-out infinite 0.15s;"></div>
+            <div class="arrows" style="width: 2em; height: 2em; background-color: transparent; z-index: 80; 
+            bottom: 40px; border-width: 0 0.25em 0.25em 0; position: absolute; border-style: solid; border-color: #c73a47; animation: scrolldown 1.2s ease-in-out infinite;"></div>
+
+</div>
+</a>
+</div>
+
+<br /><br />
+    <div id="down"></div>
+  <br />
+
+  <center>
+<h1 id="message"></h1><br />
+<h2>Restez connectés !</h2>
+</center>
+
+<div class="test">
+
+
+    <div id="notmobile" style="height: 100px"></div>
+
+    <div id="notmobile" class="div50" style="padding-left: 5%">
+      <div class="test">
+        <a href="weekend.html"
+          ><img src="images/index/photo2.svg" id="WEI" alt="WEISABI 2022"
+        /></a>
+      </div>
+    </div>
+    <div class="div50" style="padding-right: 5%">
+      <div class="test">
+        <h1>Le WEI, c'est quoi ?</h1>
+        <br />
+        <br />
+        <p id="index">
+          Il s'agit du <b>week-end d'intégration</b> de l'école.<br /><br /><br />
+
+          Le temps d’un (long) week-end, tu apprendras à profiter<br />de ta vie
+          étudiante : un moment inoubliable de ta scolarité !
+        </p>
+        <br />
+
+        <div class="encadre">Quasiment</div>
+        <p id="index">tout est permis !</p><img style="width: 3%;" src="images/plus18.png">
+        <br />
+        <p id="index">
+          Alors ? Convaincu ?<br />
+          On t’attend avec impatience !
+        </p>
+        <br /><br />
+        <div data-aos="flip-right">
+          <a href="weekend.html"></div><button class="type1">En savoir plus</button></a>
+        </div>
+      </div>
+    </div>
+
+    <div id="onlymobile" class="div50" style="padding-left: 5%">
+      <div class="test">
+        <a href="weekend.html"
+          ><img src="images/index/photo2.svg" id="WEI" alt="WEISABI 2022"
+        /></a>
+      </div>
+    </div>
+
+    <div id="notmobile" style="height: 150px"></div>
+    <div id="onlymobile" style="height: 50px"></div>
+<!---
+    <div class="box">
+      <h1>Ils nous soutiennent :</h1>
+      <br />
+
+      <hr />
+
+<div data-aos="flip-left">
+<div class="marquee">
+<img class="sponsors" src="images/index/sponsors/lydia.svg" />
+        <img class="sponsors" src="images/index/sponsors/Sopra_Steria.svg" />
+        <img class="sponsorskrys" src="images/index/sponsors/krys.svg" />
+        <img class="sponsors" src="images/index/sponsors/efrei.svg"/>
+</div>
+</div>
+-->
+
+<!--
+      <marquee>
+        
+        <img class="sponsors" src="images/index/sponsors/lydia.svg" />
+        <img class="sponsors" src="images/index/sponsors/Sopra_Steria.svg" />
+        <img class="sponsors" src="images/index/sponsors/krys.svg" />
+        <a href="https://efrei.fr" target="_blank"
+          ><img class="sponsors" src="images/index/sponsors/efrei.svg"
+        /></a>
+        <img class="sponsors" src="images/index/sponsors/lydia.svg" />
+        <img class="sponsors" src="images/index/sponsors/Sopra_Steria.svg" />
+        <img class="sponsors" src="images/index/sponsors/krys.svg" />
+        <a href="https://efrei.fr" target="_blank"
+          ><img class="sponsors" src="images/index/sponsors/efrei.svg"
+        /></a>
+      </marquee>
+      <hr />
+    </div>
+-->
+    <div id="notmobile" style="height: 100px"></div>
+
+    <!-- -------------------- BODY -------------------- -->
+
+    <!-- ------------------- FOOTER ------------------- -->
+    <footer>
+      <div class="footer_gauche">
+        <a href="https://bio.link/weiefrei" target="_blank"><button id="footer-button" href="https://bio.link/weiefrei" class="type2">Nos réseaux sociaux</button></a>
+      </div>
+
+      <div class="footer_centre">
+        <a href="https://efrei.fr" target="_blank" alt="Site Efrei"
+          ><img
+            src="images/footer/efrei_white.svg"
+            id="logo_efrei"
+            alt="Logo Efrei"
+        /></a>
+        <p id="footer">
+          © <span id="currentYear"></span> - WEI EFREI - 30-32 Avenue de la République, 94800, Villejuif -
+          Tous droits réservés
+        </p>
+      </div>
+
+      <div class="footer_droite">
+
+        <a href="https://www.instagram.com/weiefrei/" target="_blank"><img class="footer-reseaux" src="images/footer/instagram.svg" /></a>
+        <a href="https://discord.gg/THTNEQEF3u" target="_blank"><img class="footer-reseaux" src="images/footer/discord.svg" /></a>
+        <a href="https://www.facebook.com/wei.efrei" target="_blank"><img class="footer-reseaux" src="images/footer/facebook.svg" /></a>
+        <a href="mailto:contact@wei-efrei.com" target="_blank"><img class="footer-reseaux" src="images/footer/mail.svg" /></a>
+
+      </div>
+    </footer>
+    <!-- ------------------- FOOTER ------------------- -->
+
+<script>
+AOS.init();
+
+  // Récupère la date actuelle
+  const currentDate = new Date();
+
+  // Récupère l'année à partir de la date actuelle
+  const year = currentDate.getFullYear();
+
+  // Affiche l'année dans le span avec l'ID "currentYear"
+  document.getElementById('currentYear').textContent = year;
+
+  document.addEventListener("DOMContentLoaded", function() {
+            let currentYear = new Date().getFullYear();
+            document.title = "WEI Efrei " + currentYear;
+        });
+</script>
+  </body>
+</html>

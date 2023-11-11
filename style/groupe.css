@@ -1,0 +1,30 @@
+/* Page Mon Groupe CSS */
+/* Trop fort en CSS */
+
+input[type="text"], select {
+    width: 100% !important;
+}
+
+.formulaire {
+    width: 50% !important;
+}
+
+input[type="submit"]:hover, select {
+    width: 100% !important;
+}
+
+input[type="email"], select {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
+
+
+@media (max-width: 1024px) {
+    .formulaire {
+    width: 90% !important;
+}
+}

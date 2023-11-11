@@ -1,0 +1,224 @@
+/* MOBILE CSS */
+/* On gère le responsive par ici */
+
+* {
+  background-color: transparent;
+}
+
+.div50 {
+  width: 100%;
+  display: block;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+img#WEI {
+  width: 100%;           /*changement*/
+  min-width: auto;
+  padding: 10px;
+}
+
+p#index {
+  width: 90%;
+}
+
+.test {
+  margin-top: 20px;   /*changement*/
+  width: 90%;
+}
+
+.slider {
+  width: 100%;
+  padding-bottom: 0;
+}
+
+.box {
+  width: 90%;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+img.sponsors {
+  vertical-align: middle;
+  width: 30%;
+}
+
+
+img.sponsorskrys {
+  vertical-align: middle;
+  margin:  1% 5% 1% 5%;
+  width:  12%;
+}
+
+hr {
+  width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+#notmobile {
+  display: none;
+}
+
+/* ----------- FOOTER ----------- */
+
+footer {
+  background-image: url(../images/footer/footer_wave.svg);
+  background-size: cover;
+  margin: 0;
+  margin-bottom: 0;
+  width: 100%;
+  padding: 40% 2% 0% 2%;
+  color: white;
+}
+
+.footer_gauche {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+img#logo_efrei {
+  width: 25%;
+}
+
+.footer_centre {
+  display: inline-block;
+  width: 100%;
+}
+
+.footer_droite {
+  display: flex;
+  width: 100%;
+  float: unset;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
+
+P#footer {
+  margin-bottom: 30px;
+}
+
+button#footer-button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  float: unset;
+}
+
+.footer-reseaux {
+  height: 25px;
+  padding-left: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  float: unset;
+}
+
+
+
+/* ----------- LOGIN ----------- */
+
+.div20 {
+  width: 100%;
+  display: block;
+}
+
+.div30 {
+  width: 100%;
+  display: block;
+  margin: 10px 0 50px 0;
+  
+}
+
+.formulaire {
+width: 80%;
+}
+
+/* ----------- LOGIN ----------- */
+
+
+/* ----------- WEEK-END ----------- */
+
+.content {
+  padding: 5%;
+}
+
+.triple {
+  width: 80%;
+  display: inline-block;
+  margin-top: 30px;
+  vertical-align: top;
+}
+
+.double {
+  width: 80%;
+  display: inline-block;
+  margin-top: 30px;
+  vertical-align: top;
+}
+
+/* ----------- WEEK-END ----------- */
+
+
+
+.profile-left {
+  width: 100%;
+  display: inline-block;
+}
+
+input[type="submit"],
+select {
+  background-color: #d63341;
+  color: white;
+  padding: 10px 0 10px 0;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  font-size: 1.2em;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.type3 {
+    background-color: #d63341;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    font-size: 1em;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.alert {
+  max-width: 100%;
+}
+
+
+img#dates {           /*changement*/
+    width: 95%;
+}
+
+img#slider-img {      /*changement*/
+    margin-bottom: 50px;
+}
+
+#onlymobile {         /*changement*/
+  display: block;
+}
+
+.arrows_index {
+  display: none;
+}
+
+
+
+.staffer {
+    display: block;
+    width: 100%;
+    padding-bottom: 10px;
+}
